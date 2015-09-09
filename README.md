@@ -123,15 +123,15 @@ GET application/rate_limit_status    => getApplicationRateLimitStatus
 
 #### Twit#requestAsync
 
-Promised version of Twit#request. Takes same parameters except callback and returns a Bluebird `Promise`;
+Promised version of Twit#request. Takes same parameters except callback and returns a Bluebird `Promise`.
 
 #### Twit#getAsync
 
-Promised version of [Twit#get](https://github.com/ttezel/twit#tgetpath-params-callback). Takes same parameters except callback and returns a Bluebird `Promise`;
+Promised version of [Twit#get](https://github.com/ttezel/twit#tgetpath-params-callback). Takes same parameters except callback and returns a Bluebird `Promise`.
 
 #### Twit#postAsync
 
-Promised version of [Twit#post](https://github.com/ttezel/twit#tpostpath-params-callback). Takes same parameters except callback and returns a Bluebird `Promise`;
+Promised version of [Twit#post](https://github.com/ttezel/twit#tpostpath-params-callback). Takes same parameters except callback and returns a Bluebird `Promise`.
 
 
 ### Supported APIs
@@ -181,7 +181,7 @@ No. Endpoints for Twitter Public REST API and Twitter Collections REST API are c
 <a name="unsupported" />
 #### How to use Twit for endpoints not supported?
 
-Promised-Twit is just a wrapper over Twit. You can still use Twit underlying Twit functions. 
+Promised-Twit is just a wrapper over Twit. You can still use underlying Twit functions.
 
 ```javascript
 'use strict';
@@ -207,7 +207,7 @@ T.post('statuses/update', { status: 'hello world!' }, function(err, data, respon
 
 (The MIT License)
 
-Copyright (c) 2015 Kulbir Saini
+Copyright (c) 2015 Kulbir Saini saini@saini.co.in
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
