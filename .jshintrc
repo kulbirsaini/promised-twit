@@ -1,0 +1,8 @@
+{
+  "node": true,
+  "unused": "vars",
+  "undef": true,
+  "mocha": true,
+  "esnext": true,
+  "maxerr": 100
+}
