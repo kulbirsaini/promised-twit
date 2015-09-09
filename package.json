@@ -1,6 +1,6 @@
 {
   "name": "promised-twit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Promised version of twit (Twitter API Client for node (REST & Streaming API))",
   "main": "index.js",
   "homepage": "https://github.com/kulbirsaini/promised-twit",
