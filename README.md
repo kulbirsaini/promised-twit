@@ -4,6 +4,8 @@ Promised version of [Twit](https://github.com/ttezel/twit) (Twitter API Client f
 
 Uses Twit internally, so there is no magic.
 
+[![npm version](https://badge.fury.io/js/promised-twit.svg)](http://badge.fury.io/js/promised-twit)
+
 ### How To Install? ###
 
 ```bash
