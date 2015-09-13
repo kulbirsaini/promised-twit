@@ -14,9 +14,11 @@ npm install --save promised-twit
 
 ### Features
 
-* Promise based
-* Uses [Bluebird](https://github.com/petkaantonov/bluebird), so it should be fast
+* Promise based.
+* Uses [Bluebird](https://github.com/petkaantonov/bluebird), so it should be fast.
 * Convenient function names to access endpoints.
+* Stringifies twitter IDs wherever API supports. [Learn more](https://dev.twitter.com/overview/api/twitter-ids-json-and-snowflake).
+
 
 ### How To Use?
 
